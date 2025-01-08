@@ -1,0 +1,23 @@
+# Create virtual environment
+
+python -m venv .env/postDjango
+
+
+# Activate environment
+
+.env\postDjango\Scripts\activate
+.env\postDjango\Scripts\deactivate
+
+# Install Django
+
+pip install Django
+
+# Project
+
+django-admin startproject startproject postgres_db
+
+python manage.py migrate
+
+python manage.py runserver
+
+
